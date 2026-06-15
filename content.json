@@ -1,0 +1,88 @@
+{
+  "brand": {
+    "name": "ODHANI",
+    "tagline": "Elegance Woven Into Every Thread",
+    "description": "Discover handcrafted ethnic wear that blends timeless tradition with contemporary fashion. Designed for celebrations, crafted for confidence.",
+    "footer": "© 2026 Odhani. Crafted with elegance."
+  },
+  "nav": ["Shop", "Collections", "New In", "Journal", "Contact"],
+  "about": {
+    "eyebrow": "About Odhani",
+    "heading": "Where Tradition Meets Modern Grace",
+    "body": "At Odhani, every piece tells a story of heritage, artistry, and femininity. Inspired by India's rich textile culture, our collections are thoughtfully designed for the modern woman who values elegance, comfort, and authenticity."
+  },
+  "collections": [
+    { "title": "Festive Collection", "desc": "Celebrate every occasion in style.", "img": "assets/festive.jpg" },
+    { "title": "Saree Collection", "desc": "Timeless drapes crafted with elegance.", "img": "assets/saree.jpg" },
+    { "title": "Kurta Sets", "desc": "Everyday sophistication with effortless charm.", "img": "assets/kurta.jpg" },
+    { "title": "Wedding Edit", "desc": "Statement pieces for unforgettable moments.", "img": "assets/wedding.jpg" }
+  ],
+  "features": [
+    { "t": "Premium Fabrics", "d": "Pure silks, fine cottons, hand-loomed weaves." },
+    { "t": "Handcrafted Details", "d": "Embroidery and finishing by master artisans." },
+    { "t": "Contemporary Designs", "d": "Heritage silhouettes, modern sensibilities." },
+    { "t": "Perfect Fit & Comfort", "d": "Tailored proportions for every occasion." },
+    { "t": "Pan India Delivery", "d": "Carefully packaged, delivered to your door." },
+    { "t": "Secure Shopping", "d": "Trusted checkout with effortless returns." }
+  ],
+  "newArrivals": [
+    {
+      "img": "assets/new1.jpg",
+      "name": "Rosé Anarkali",
+      "price": "₹ 14,800",
+      "desc": "Hand-embroidered chiffon anarkali with delicate zari work and a flowing silhouette.",
+      "sizes": ["XS", "S", "M", "L", "XL"],
+      "colors": [
+        { "name": "Blush", "hex": "#f4c8c8" },
+        { "name": "Ivory", "hex": "#f4ecdd" },
+        { "name": "Sage", "hex": "#b9c4a9" }
+      ]
+    },
+    {
+      "img": "assets/new2.jpg",
+      "name": "Ivory Zardozi Set",
+      "price": "₹ 22,400",
+      "desc": "Co-ord set in pure silk with intricate zardozi handwork across the bodice.",
+      "sizes": ["S", "M", "L", "XL"],
+      "colors": [
+        { "name": "Ivory", "hex": "#f4ecdd" },
+        { "name": "Gold", "hex": "#c9a84c" },
+        { "name": "Maroon", "hex": "#5c2018" }
+      ]
+    },
+    {
+      "img": "assets/new3.jpg",
+      "name": "Maroon Banarasi Kurta",
+      "price": "₹ 9,600",
+      "desc": "Banarasi silk kurta with gold motif borders, paired with a matching dupatta.",
+      "sizes": ["XS", "S", "M", "L"],
+      "colors": [
+        { "name": "Maroon", "hex": "#5c2018" },
+        { "name": "Emerald", "hex": "#0d5b3f" },
+        { "name": "Royal", "hex": "#1a2f6b" }
+      ]
+    },
+    {
+      "img": "assets/new4.jpg",
+      "name": "Champagne Organza Saree",
+      "price": "₹ 18,200",
+      "desc": "Lightweight organza saree with hand-painted floral motifs and a satin border.",
+      "sizes": ["Free Size"],
+      "colors": [
+        { "name": "Champagne", "hex": "#e8c898" },
+        { "name": "Blush", "hex": "#f4c8c8" },
+        { "name": "Mint", "hex": "#cde6d4" }
+      ]
+    }
+  ],
+  "testimonials": [
+    { "q": "The quality and detailing exceeded my expectations. Absolutely stunning.", "a": "Ananya R., Mumbai" },
+    { "q": "Odhani perfectly balances tradition and modern fashion.", "a": "Priya S., Delhi" },
+    { "q": "My festive outfit received endless compliments.", "a": "Meera K., Bengaluru" }
+  ],
+  "footerColumns": [
+    { "h": "Shop", "l": ["Sarees", "Kurta Sets", "Festive", "Wedding Edit"] },
+    { "h": "Company", "l": ["About Us", "Contact", "Shipping & Returns", "Privacy Policy"] },
+    { "h": "Follow", "l": ["Instagram", "Facebook", "Pinterest"] }
+  ]
+}

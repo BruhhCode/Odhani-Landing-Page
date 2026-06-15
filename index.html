@@ -1,0 +1,105 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width,initial-scale=1" />
+<title>Odhani — Elegance Woven Into Every Thread</title>
+<meta name="description" content="Discover handcrafted Indian ethnic wear: sarees, suits, kurtas and festive editions for the modern woman." />
+<meta property="og:title" content="Odhani — Premium Indian Ethnic Wear" />
+<meta property="og:description" content="Handcrafted sarees, suits, kurtas and festive wear designed for celebrations." />
+<link rel="preconnect" href="https://fonts.googleapis.com" />
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+<link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@400;500;600&family=Inter:wght@300;400;500;600&display=swap" rel="stylesheet" />
+<link rel="stylesheet" href="styles.css" />
+</head>
+<body id="top">
+
+<header class="nav">
+  <div class="nav-inner">
+    <a href="#top" class="logo">ODHANI</a>
+    <ul class="nav-links" id="navLinks"></ul>
+    <a href="#shop" class="nav-cta">Shop</a>
+  </div>
+</header>
+
+<section class="hero">
+  <img src="assets/hero.jpg" alt="Woman in maroon and gold embroidered saree" />
+  <div class="hero-overlay"></div>
+  <div class="hero-content">
+    <div>
+      <span class="hero-tag"><span class="gold-divider"></span> Heritage Couture</span>
+      <h1>Elegance Woven<br/>Into Every Thread</h1>
+      <p>Discover handcrafted ethnic wear that blends timeless tradition with contemporary fashion. Designed for celebrations, crafted for confidence.</p>
+      <div class="hero-ctas">
+        <a href="#shop" class="btn-primary">Shop Collection</a>
+        <a href="#new-in" class="btn-outline">Explore New Arrivals</a>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="about" id="about">
+  <div class="about-grid">
+    <div>
+      <span class="eyebrow">About Odhani</span>
+      <h2 class="display">Where Tradition Meets Modern Grace</h2>
+    </div>
+    <p>At Odhani, every piece tells a story of heritage, artistry, and femininity. Inspired by India's rich textile culture, our collections are thoughtfully designed for the modern woman who values elegance, comfort, and authenticity.</p>
+  </div>
+</section>
+
+<section class="collections" id="collections">
+  <div class="section-head">
+    <span class="eyebrow">Featured</span>
+    <h2 class="display">Curated Collections</h2>
+  </div>
+  <div class="coll-grid" id="collGrid"></div>
+</section>
+
+<section class="why">
+  <div class="why-head">
+    <span class="eyebrow">Why Odhani</span>
+    <h2 class="display">Crafted With Purpose</h2>
+  </div>
+  <div class="why-grid" id="whyGrid"></div>
+</section>
+
+<section class="new" id="new-in">
+  <div class="new-head">
+    <div>
+      <span class="eyebrow">New Arrivals</span>
+      <h2 class="display">Fresh Styles, Timeless Appeal</h2>
+    </div>
+    <a href="#shop" class="view-all">View All →</a>
+  </div>
+  <div class="new-grid" id="newGrid"></div>
+</section>
+
+<section class="testimonials">
+  <span class="eyebrow">Testimonials</span>
+  <h2>Loved By Women Across India</h2>
+  <div class="t-grid" id="tGrid"></div>
+</section>
+
+<section class="newsletter">
+  <span class="eyebrow">Newsletter</span>
+  <h2 class="display">Join The Odhani Circle</h2>
+  <p>Be the first to discover new collections, festive launches, exclusive offers, and styling inspiration.</p>
+  <form class="nl-form" onsubmit="event.preventDefault(); this.reset(); alert('Welcome to the Odhani Circle!');">
+    <input type="email" placeholder="Your email address" required />
+    <button type="submit">Subscribe</button>
+  </form>
+</section>
+
+<footer>
+  <div class="foot-inner">
+    <div class="foot-grid" id="footGrid"></div>
+    <div class="copyright" id="copyright"></div>
+  </div>
+</footer>
+
+<div id="modalRoot"></div>
+
+<script src="script.js"></script>
+</body>
+</html>
