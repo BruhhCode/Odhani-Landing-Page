@@ -12,10 +12,10 @@
     "body": "At Odhani, every piece tells a story of heritage, artistry, and femininity. Inspired by India's rich textile culture, our collections are thoughtfully designed for the modern woman who values elegance, comfort, and authenticity."
   },
   "collections": [
-    { "title": "Festive Collection", "desc": "Celebrate every occasion in style.", "img": "assets/festive.jpg" },
-    { "title": "Saree Collection", "desc": "Timeless drapes crafted with elegance.", "img": "assets/saree.jpg" },
-    { "title": "Kurta Sets", "desc": "Everyday sophistication with effortless charm.", "img": "assets/kurta.jpg" },
-    { "title": "Wedding Edit", "desc": "Statement pieces for unforgettable moments.", "img": "assets/wedding.jpg" }
+    { "title": "Festive Collection", "desc": "Celebrate every occasion in style.", "img": "https://res.cloudinary.com/dlimc6j71/image/upload/v1781550557/copy_of_dsc04979_1_juhozk.jpg" },
+    { "title": "Saree Collection", "desc": "Timeless drapes crafted with elegance.", "img": "https://res.cloudinary.com/dlimc6j71/image/upload/v1781550263/This_isn_t_just_a_saree_it_s_a_takeover.Heavy_details_effortless_attitude_zero_intention_of_tdeejy.webp" },
+    { "title": "Kurta Sets", "desc": "Everyday sophistication with effortless charm.", "img": "https://res.cloudinary.com/dlimc6j71/image/upload/v1781550685/kurta_puaznj.jpg" },
+    { "title": "Wedding Edit", "desc": "Statement pieces for unforgettable moments.", "img": "https://res.cloudinary.com/dlimc6j71/image/upload/v1781550686/wedding_ofm77k.jpg" }
   ],
   "features": [
     { "t": "Premium Fabrics", "d": "Pure silks, fine cottons, hand-loomed weaves." },
@@ -27,7 +27,7 @@
   ],
   "newArrivals": [
     {
-      "img": "assets/new1.jpg",
+      "img": "https://res.cloudinary.com/dlimc6j71/image/upload/v1781550685/new1_e07uko.jpg",
       "name": "Rosé Anarkali",
       "price": "₹ 14,800",
       "desc": "Hand-embroidered chiffon anarkali with delicate zari work and a flowing silhouette.",
@@ -39,7 +39,7 @@
       ]
     },
     {
-      "img": "assets/new2.jpg",
+      "img": "https://res.cloudinary.com/dlimc6j71/image/upload/v1781550685/new2_kyxzbx.jpg",
       "name": "Ivory Zardozi Set",
       "price": "₹ 22,400",
       "desc": "Co-ord set in pure silk with intricate zardozi handwork across the bodice.",
@@ -51,7 +51,7 @@
       ]
     },
     {
-      "img": "assets/new3.jpg",
+      "img": "https://res.cloudinary.com/dlimc6j71/image/upload/v1781550686/new3_enyvhc.jpg",
       "name": "Maroon Banarasi Kurta",
       "price": "₹ 9,600",
       "desc": "Banarasi silk kurta with gold motif borders, paired with a matching dupatta.",
@@ -63,7 +63,7 @@
       ]
     },
     {
-      "img": "assets/new4.jpg",
+      "img": "https://res.cloudinary.com/dlimc6j71/image/upload/v1781550686/new4_rlrfga.jpg",
       "name": "Champagne Organza Saree",
       "price": "₹ 18,200",
       "desc": "Lightweight organza saree with hand-painted floral motifs and a satin border.",
