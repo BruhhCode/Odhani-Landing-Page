@@ -57,7 +57,12 @@
     ${data.footerColumns.map(col => `
       <div>
         <h4>${col.h}</h4>
-        <ul>${col.l.map(x => `<li><a href="#">${x}</a></li>`).join('')}</ul>
+        <ul>${col.l.map(item => {
+          const label = typeof item === 'string' ? item : item.name;
+          const href = typeof item === 'string' ? '#' : item.url;
+          const attrs = typeof item === 'string' ? '' : ' target="_blank" rel="noopener noreferrer"';
+          return `<li><a href="${href}"${attrs}>${label}</a></li>`;
+        }).join('')}</ul>
       </div>`).join('')}
   `;
   document.getElementById('copyright').textContent = data.brand.footer;

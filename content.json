@@ -83,6 +83,13 @@
   "footerColumns": [
     { "h": "Shop", "l": ["Sarees", "Kurta Sets", "Festive", "Wedding Edit"] },
     { "h": "Company", "l": ["About Us", "Contact", "Shipping & Returns", "Privacy Policy"] },
-    { "h": "Follow", "l": ["Instagram", "Facebook", "Pinterest"] }
+    {
+      "h": "Follow",
+      "l": [
+        { "name": "Instagram", "url": "https://www.instagram.com/odhani_theethnics/" },
+        { "name": "Facebook", "url": "https://www.facebook.com/odhani.theethnics" },
+        { "name": "Pinterest", "url": "https://www.pinterest.com/odhanitheethnics/" }
+      ]
+    }
   ]
 }
