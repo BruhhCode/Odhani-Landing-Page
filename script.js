@@ -6,6 +6,17 @@
   document.getElementById('navLinks').innerHTML = data.nav
     .map(l => `<li><a href="#${l.toLowerCase().replace(/\s+/g, '-')}">${l}</a></li>`).join('');
 
+  const nav = document.querySelector('.nav');
+  const navToggle = document.querySelector('.nav-toggle');
+  navToggle?.addEventListener('click', () => {
+    const expanded = navToggle.getAttribute('aria-expanded') === 'true';
+    navToggle.setAttribute('aria-expanded', String(!expanded));
+    nav.classList.toggle('open');
+  });
+  document.querySelectorAll('#navLinks a').forEach(link => {
+    link.addEventListener('click', () => nav.classList.remove('open'));
+  });
+
   // Collections
   document.getElementById('collGrid').innerHTML = data.collections.map(c => `
     <a href="#shop" class="coll-card">
