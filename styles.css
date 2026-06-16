@@ -48,9 +48,9 @@ section { padding: 7rem 1.5rem; }
 }
 .nav-inner { max-width: 1200px; margin: 0 auto; padding: 0 1.5rem; display: flex; align-items: center; justify-content: space-between; }
 .logo { font-family: var(--font-display); font-size: 1.5rem; letter-spacing: .3em; color: var(--maroon-deep); text-shadow: 0 1px 1px rgba(255,250,240,.6); }
-.nav-links { display: none; gap: 2.5rem; list-style: none; font-size: .875rem; font-weight: 500; color: var(--maroon-deep); }
+.nav-links { display: flex; flex-wrap: wrap; justify-content: center; gap: .8rem; list-style: none; font-size: .825rem; font-weight: 500; color: var(--maroon-deep); }
 .nav-links a:hover { color: var(--maroon); }
-@media (min-width: 768px) { .nav-links { display: flex; } }
+@media (min-width: 768px) { .nav-links { gap: 2.5rem; } }
 .nav-cta {
   border: 1px solid rgba(122,42,32,.4);
   background: rgba(247,239,225,.6);
