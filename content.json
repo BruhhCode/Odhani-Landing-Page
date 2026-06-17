@@ -14,8 +14,8 @@
   "collections": [
     { "title": "Festive Collection", "desc": "Celebrate every occasion in style.", "img": "https://res.cloudinary.com/dlimc6j71/image/upload/v1781550557/copy_of_dsc04979_1_juhozk.jpg" },
     { "title": "Saree Collection", "desc": "Timeless drapes crafted with elegance.", "img": "https://res.cloudinary.com/dlimc6j71/image/upload/v1781550263/This_isn_t_just_a_saree_it_s_a_takeover.Heavy_details_effortless_attitude_zero_intention_of_tdeejy.webp" },
-    { "title": "Kurta Sets", "desc": "Everyday sophistication with effortless charm.", "img": "https://res.cloudinary.com/dlimc6j71/image/upload/v1781550685/kurta_puaznj.jpg" },
-    { "title": "Wedding Edit", "desc": "Statement pieces for unforgettable moments.", "img": "https://res.cloudinary.com/dlimc6j71/image/upload/v1781550686/wedding_ofm77k.jpg" }
+    { "title": "Kurta Sets", "desc": "Everyday sophistication with effortless charm.", "img": "https://res.cloudinary.com/dlimc6j71/image/upload/v1781685536/o_30_bfv3xk.png" },
+    { "title": "Wedding Edit", "desc": "Statement pieces for unforgettable moments.", "img": "https://res.cloudinary.com/dlimc6j71/image/upload/v1781685537/od_9_pzxnqm.png" }
   ],
   "features": [
     { "t": "Premium Fabrics", "d": "Pure silks, fine cottons, hand-loomed weaves." },
