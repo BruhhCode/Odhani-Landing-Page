@@ -38,8 +38,7 @@ export default function Odhani({ content }) {
             <h1>{d.brand.tagline.split(" Into ")[0]}<br/>Into Every Thread</h1>
             <p>{d.brand.description}</p>
             <div className="hero-ctas">
-              <a href="#shop" className="btn-primary">Shop Collection</a>
-              <a href="#new-in" className="btn-outline">Explore New Arrivals</a>
+              <a href="#collections" className="btn-primary">Explore Collections</a>
             </div>
           </div>
         </div>
