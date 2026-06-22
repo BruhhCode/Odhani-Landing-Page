@@ -39,17 +39,6 @@
     </div>
   `).join('');
 
-  // New arrivals
-  document.getElementById('newGrid').innerHTML = data.newArrivals.map((p, i) => `
-    <div class="product">
-      <div class="img-wrap">
-        <img loading="lazy" src="${p.img}" alt="${p.name}"/>
-        <button class="quick-view" data-idx="${i}">Quick View</button>
-      </div>
-      <div class="product-meta"><h3>${p.name}</h3><span>${p.price}</span></div>
-    </div>
-  `).join('');
-
   // Testimonials
   document.getElementById('tGrid').innerHTML = data.testimonials.map(t => `
     <figure class="t-card">

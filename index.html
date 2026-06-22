@@ -44,7 +44,7 @@
       <p>Discover handcrafted ethnic wear that blends timeless tradition with contemporary fashion. Designed for celebrations, crafted for confidence.</p>
       <div class="hero-ctas">
         <a href="#shop" class="btn-primary">Shop Collection</a>
-        <a href="#new-in" class="btn-outline">Explore New Arrivals</a>
+        <a href="#collections" class="btn-outline">Explore Collections</a>
       </div>
     </div>
   </div>
@@ -76,21 +76,40 @@
   <div class="why-grid" id="whyGrid"></div>
 </section>
 
-<section class="new" id="new-in">
-  <div class="new-head">
-    <div>
-      <span class="eyebrow">New Arrivals</span>
-      <h2 class="display">Fresh Styles, Timeless Appeal</h2>
-    </div>
-    <a href="#shop" class="view-all">View All →</a>
-  </div>
-  <div class="new-grid" id="newGrid"></div>
-</section>
-
 <section class="testimonials">
   <span class="eyebrow">Testimonials</span>
   <h2>Loved By Women Across India</h2>
   <div class="t-grid" id="tGrid"></div>
+</section>
+
+<section class="contact" id="contact">
+  <div class="section-head">
+    <span class="eyebrow">Get in Touch</span>
+    <h2 class="display">We&apos;d Love to Hear From You</h2>
+  </div>
+  <div class="contact-grid">
+    <div class="contact-card">
+      <h3>Contact Details</h3>
+      <p><strong>Email:</strong> hello@odhani.com</p>
+      <p><strong>Phone:</strong> +91 98765 43210</p>
+      <p><strong>Location:</strong> Jaipur, India</p>
+    </div>
+    <form class="contact-form" onsubmit="event.preventDefault(); this.reset(); alert('Thank you for reaching out!');">
+      <label>
+        Name
+        <input type="text" placeholder="Your name" required />
+      </label>
+      <label>
+        Email
+        <input type="email" placeholder="Your email" required />
+      </label>
+      <label>
+        Message
+        <textarea placeholder="Tell us about your style needs" required></textarea>
+      </label>
+      <button type="submit" class="btn-primary">Send Message</button>
+    </form>
+  </div>
 </section>
 
 <section class="newsletter">
