@@ -119,8 +119,8 @@ export default function Odhani({ content }) {
           <div className="contact-card">
             <h3>Contact Details</h3>
             <p><strong>Email:</strong> hello@odhani.com</p>
-            <p><strong>Phone:</strong> +91 98765 43210</p>
-            <p><strong>Location:</strong> Jaipur, India</p>
+            <p><strong>Phone:</strong> +91 80575 66600</p>
+            <p><strong>Location:</strong> Dehradun, Uttarakhand, India</p>
           </div>
           <form className="contact-form" onSubmit={e => e.preventDefault()}>
             <label>
