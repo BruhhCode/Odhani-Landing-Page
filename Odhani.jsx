@@ -94,31 +94,6 @@ export default function Odhani({ content }) {
         </div>
       </section>
 
-      {/* NEW ARRIVALS */}
-      <section className="new" id="new-in">
-        <div className="new-head">
-          <div>
-            <span className="eyebrow">New Arrivals</span>
-            <h2 className="display">Fresh Styles, Timeless Appeal</h2>
-          </div>
-          <a href="#shop" className="view-all">View All →</a>
-        </div>
-        <div className="new-grid">
-          {d.newArrivals.map(p => (
-            <div className="product" key={p.name}>
-              <div className="img-wrap">
-                <img loading="lazy" src={p.img} alt={p.name} />
-                <button className="quick-view" onClick={() => setQuickView(p)}>Quick View</button>
-              </div>
-              <div className="product-meta">
-                <h3>{p.name}</h3>
-                <span>{p.price}</span>
-              </div>
-            </div>
-          ))}
-        </div>
-      </section>
-
       {/* TESTIMONIALS */}
       <section className="testimonials">
         <span className="eyebrow">Testimonials</span>
@@ -131,6 +106,37 @@ export default function Odhani({ content }) {
               <figcaption>— {t.a}</figcaption>
             </figure>
           ))}
+        </div>
+      </section>
+
+      {/* CONTACT */}
+      <section className="contact" id="contact">
+        <div className="section-head">
+          <span className="eyebrow">Get in Touch</span>
+          <h2 className="display">We&apos;d Love to Hear From You</h2>
+        </div>
+        <div className="contact-grid">
+          <div className="contact-card">
+            <h3>Contact Details</h3>
+            <p><strong>Email:</strong> hello@odhani.com</p>
+            <p><strong>Phone:</strong> +91 98765 43210</p>
+            <p><strong>Location:</strong> Jaipur, India</p>
+          </div>
+          <form className="contact-form" onSubmit={e => e.preventDefault()}>
+            <label>
+              Name
+              <input type="text" placeholder="Your name" required />
+            </label>
+            <label>
+              Email
+              <input type="email" placeholder="Your email" required />
+            </label>
+            <label>
+              Message
+              <textarea placeholder="Tell us about your style needs" required />
+            </label>
+            <button type="submit" className="btn-primary">Send Message</button>
+          </form>
         </div>
       </section>
 
