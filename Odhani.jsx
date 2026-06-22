@@ -94,7 +94,7 @@ export default function Odhani({ content }) {
       </section>
 
       {/* TESTIMONIALS */}
-      <section className="testimonials">
+      <section className="testimonials" id="testimonials">
         <span className="eyebrow">Testimonials</span>
         <h2>Loved By Women Across India</h2>
         <div className="t-grid">
