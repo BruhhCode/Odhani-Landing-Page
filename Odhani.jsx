@@ -30,7 +30,7 @@ export default function Odhani({ content }) {
 
       {/* HERO */}
       <section className="hero">
-        <img src="https://res.cloudinary.com/dlimc6j71/image/upload/v1781549472/copy_of_dsc03464_1_zqswjh.jpg" alt="Woman in maroon and gold embroidered saree" />
+        <img src="https://res.cloudinary.com/dlimc6j71/image/upload/v1782200436/EXQUISITE_5_yazzbc.png" alt="Woman in maroon and gold embroidered saree" />
         <div className="hero-overlay" />
         <div className="hero-content">
           <div>
