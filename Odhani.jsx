@@ -38,6 +38,10 @@ export default function Odhani({ content }) {
             <h1>{d.brand.tagline.split(" Into ")[0]}<br/>Into Every Thread</h1>
             <p>{d.brand.description}</p>
             <div className="hero-ctas">
+              <a href="tel:+918057566600" className="btn-outline btn-icon">📞 Call</a>
+              <a href="https://wa.me/918057566600" target="_blank" rel="noreferrer" className="btn-outline btn-icon">💬 WhatsApp</a>
+              <a href="https://www.instagram.com/" target="_blank" rel="noreferrer" className="btn-outline btn-icon">📸 Instagram</a>
+              <a href="https://maps.google.com/?q=Dehradun,Uttarakhand,India" target="_blank" rel="noreferrer" className="btn-outline btn-icon">📍 Location</a>
               <a href="#collections" className="btn-primary">Explore Collections</a>
             </div>
           </div>
