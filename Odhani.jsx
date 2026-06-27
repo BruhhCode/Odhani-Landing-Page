@@ -39,8 +39,8 @@ export default function Odhani({ content }) {
             <p>{d.brand.description}</p>
             <div className="hero-ctas">
               <a href="#collections" class="btn-primary">Explore Collections</a>
-              <a href="tel:+917895423317" className="btn-outline btn-icon">📞 Call</a>
-              <a href="https://wa.me/917895423317 " target="_blank" rel="noreferrer" className="btn-outline btn-icon">💬 WhatsApp</a>
+              <a href="tel:+918057566600" className="btn-outline btn-icon">📞 Call</a>
+              <a href="https://wa.me/918057566600 " target="_blank" rel="noreferrer" className="btn-outline btn-icon">💬 WhatsApp</a>
               <a href="https://www.instagram.com/odhani_theethnics/" target="_blank" rel="noreferrer" className="btn-outline btn-icon">📸 Instagram</a>
               <a href="https://maps.app.goo.gl/rrXjw413d6ZanYB98" target="_blank" rel="noreferrer" className="btn-outline btn-icon">📍 Location</a>
             </div>
