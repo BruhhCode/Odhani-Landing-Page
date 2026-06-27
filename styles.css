@@ -97,11 +97,17 @@ section { padding: 7rem 1.5rem; }
 .btn-primary, .btn-outline {
   padding: .9rem 2rem; border-radius: 9999px; font-size: .72rem;
   text-transform: uppercase; letter-spacing: .25em; transition: all .3s;
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.16);
 }
 .btn-primary { background: var(--ivory); color: var(--maroon-deep); }
 .btn-primary:hover { background: var(--gold); }
-.btn-outline { border: 1px solid rgba(247,239,225,.6); color: var(--ivory); }
-.btn-outline:hover { border-color: var(--gold); color: var(--gold); }
+.btn-outline {
+  border: 1px solid rgba(247,239,225,.6);
+  color: var(--ivory);
+  background: rgba(247,239,225,.14);
+  backdrop-filter: blur(8px);
+}
+.btn-outline:hover { border-color: var(--gold); color: var(--gold); background: rgba(247,239,225,.22); }
 .btn-icon { padding: .8rem 1rem; display: inline-flex; align-items: center; justify-content: center; gap: .45rem; }
 
 /* ABOUT */
