@@ -115,7 +115,7 @@ section { padding: 7rem 1.5rem; }
 .btn-primary {
   background: var(--ivory);
   color: var(--maroon-deep);
-  min-width: 13rem;
+  min-width: 16rem;
 }
 .btn-primary:hover { background: var(--gold); }
 .btn-outline {
