@@ -103,20 +103,25 @@ section { padding: 7rem 1.5rem; }
   width: 100%;
 }
 .btn-primary, .btn-outline {
-  padding: .9rem 2rem; border-radius: 9999px; font-size: .72rem;
+  padding: .95rem 1.4rem; border-radius: 9999px; font-size: .72rem;
   text-transform: uppercase; letter-spacing: .25em; transition: all .3s;
   box-shadow: 0 10px 25px rgba(0, 0, 0, 0.16);
+  min-width: 8.5rem;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
 }
 .btn-primary { background: var(--ivory); color: var(--maroon-deep); }
 .btn-primary:hover { background: var(--gold); }
 .btn-outline {
   border: 1px solid rgba(247,239,225,.6);
-  color: var(--ivory);
-  background: rgba(247,239,225,.14);
+  color: var(--maroon-deep);
+  background: var(--ivory);
   backdrop-filter: blur(8px);
 }
-.btn-outline:hover { border-color: var(--gold); color: var(--gold); background: rgba(247,239,225,.22); }
-.btn-icon { padding: .8rem 1rem; display: inline-flex; align-items: center; justify-content: center; gap: .45rem; }
+.btn-outline:hover { border-color: var(--gold); color: var(--maroon-deep); background: var(--gold); }
+.btn-icon { padding: .95rem 1.2rem; gap: .45rem; }
 
 /* ABOUT */
 .about { background: var(--ivory); }
