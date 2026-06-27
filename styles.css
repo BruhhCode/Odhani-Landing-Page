@@ -106,7 +106,7 @@ section { padding: 7rem 1.5rem; }
   padding: .95rem 1.4rem; border-radius: 9999px; font-size: .72rem;
   text-transform: uppercase; letter-spacing: .25em; transition: all .3s;
   box-shadow: 0 10px 25px rgba(0, 0, 0, 0.16);
-  min-width: 8.5rem;
+  min-width: 10rem;
   display: inline-flex;
   align-items: center;
   justify-content: center;
